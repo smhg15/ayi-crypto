@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import UnderConstruction from '../assets/underConstruction.jpg';
+import NotFoundImage from '../assets/error404.jpg';
 
     function NotFoundPage(){
         return (<div>
-            <img src={UnderConstruction}  alt= "UnderConstruction"/>
+            <img src={NotFoundImage}  alt= "NotFoundPage"/>
             <p style={{textAlign:"center"}}>
-                <h1>"Sorry, please try later...we are working"</h1>
+                <h1>"ERROR 404 ("NotFoundPage")"</h1>
               <Link to="/">Go to Home </Link>
             </p>
           </div>)

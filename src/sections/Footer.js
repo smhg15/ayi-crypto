@@ -1,8 +1,8 @@
-import CommonButton from "../commons/CommonButton";
+/* import CommonButton from "../commons/CommonButton";
 import CommonList from "../commons/CommonList";
 import Grid from '@mui/material/Grid';
 import * as React from 'react';
-  /* <Grid container direction="row" justifyContent="space-between" alignItems="center">
+ <Grid container direction="row" justifyContent="space-between" alignItems="center">
         <Grid>
             <CommonList/>
         </Grid>
@@ -12,8 +12,7 @@ import * as React from 'react';
         <Grid>
             <CommonList/>
         </Grid>
-    </Grid>         */
-
+    </Grid>   
 function Footer(){
     return(console.log("Footer")
   
@@ -22,4 +21,4 @@ function Footer(){
 
 
 
-export default Footer;
+export default Footer; */

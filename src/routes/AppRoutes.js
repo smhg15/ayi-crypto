@@ -8,6 +8,7 @@ import About from '../views/About'
 import Header from "../sections/Header";
 import NavBar from "../sections/NavBar";
 import Footer from "../sections/Footer";
+import NotFoundPage from '../views/NotFoundPage';
 
 function AppRoutes() {
   return (
@@ -20,10 +21,11 @@ function AppRoutes() {
 				<Route path='/coinsTable' element={<CoinsTable/>}/>			
                 <Route path='/coinsProfile/:position' element={<SingleCryptoProfileContainer/>}/>			
                 <Route path='/news' element={<News/>}/>			
-                <Route path='/about' element={<About/>}/>		
+                <Route path='/about' element={<About/>}/>
+                <Route path="*" element={<NotFoundPage/>}/>		
 			</Routes>
 	</Router>
-    <Footer/>
+{/*     <Footer/> */}
     </>
   );
 }
